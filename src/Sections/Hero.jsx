@@ -8,12 +8,13 @@ const Hero = () => {
       className="w-full max-container flex xl:flex-row flex-col justify-center min-h-screen gap-10 "
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:paddinf-x pt-28">
-        <p>Our Summer Collection</p>
-        <h1>
-          <span>The New Arrival</span>
+        <p className="text-coral-red text-xl font-montserrat">
+          Our Summer Collection
+        </p>
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
+          <span className="relative pr-10 z-10">The New Arrival</span>
           <br />
-          <span>Nike</span>
-          Shoes
+          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
         <p>
           Discover stylish Nike arrivals, quality comfort, and innovatopn for
