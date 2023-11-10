@@ -14,7 +14,7 @@ const Hero = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28">
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28 pl-11 sm:pl-4">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer collections
         </p>
@@ -55,10 +55,9 @@ const Hero = () => {
         />
 
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
-          {shoes.map((image, index) => (
-            <div key={index}>
+          {shoes.map((image) => (
+            <div key={image}>
               <ShoeCard
-                index={index}
                 imgURL={image}
                 changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
                 bigShoeImg={bigShoeImg}
