@@ -1,3 +1,5 @@
+import { products } from "../constants";
+
 const PopularProduct = () => {
   return (
     <section id="product" className=" max-container max-sm:mt-12">
@@ -5,12 +7,16 @@ const PopularProduct = () => {
         <h2 className="font-palanquin text-4xl  font-bold">
           Our<span className="text-coral-red">Popular</span> Products
         </h2>
-        <p>
-          Introducing the latest innovation in athletic footwear – the Nike
-          .Engineered for peak performance and designed with style in mind,
-          these shoes represent the epitome of cutting-edge sports technology
-          and fashion-forward aesthetics.
+        <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
+          Crafted with a lightweight and breathable mesh upper, the Nike ensures
+          maximum comfort and ventilation during intense workouts or casual
+          outings.
         </p>
+      </div>
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+        {products.map((product) => (
+          <PopularProductCard key={product.name} {...product} />
+        ))}
       </div>
     </section>
   );
