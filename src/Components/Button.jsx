@@ -1,6 +1,10 @@
-const Button = ({ label, iconURL }) => {
+const Button = ({ label, iconURL, fullwidth }) => {
   return (
-    <button className="flex justify-center items-center gap-2 py-4 px-7 bg-coral-red border-coral-red rounded-full font-montserrat text-white">
+    <button
+      className={`flex justify-center items-center gap-2 py-4 px-7 bg-coral-red border-coral-red rounded-full font-montserrat text-white ${
+        fullwidth && "w-full"
+      } `}
+    >
       {label}
       {iconURL && (
         <img
