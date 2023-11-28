@@ -1,5 +1,5 @@
 import ServiceCrad from "../Components/ServiceCrad";
-import { services } from "../constants";
+import { services } from "../Constants";
 
 const Services = () => {
   return (
