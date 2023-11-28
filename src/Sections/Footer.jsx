@@ -15,9 +15,9 @@ const Footer = () => {
             Your perfect Size In Store. Get Rewards
           </p>
           <div className="flex items-center gap-5 mt-8">
-            {socialMedia.map((items) => (
+            {socialMedia.map((items, index) => (
               <div
-                key={items}
+                key={index}
                 className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
               >
                 <img src={items.src} alt={items.alt} width={24} height={24} />
@@ -26,8 +26,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
-          {footerLinks.map((section) => (
-            <div key={section} className="">
+          {footerLinks.map((section, index) => (
+            <div key={index} className="">
               <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">
                 {section.title}
               </h4>
