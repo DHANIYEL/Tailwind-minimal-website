@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Nike show
 
-Currently, two official plugins are available:
+This is my initial foray into building a website inspired by Nike, leveraging the utility-first power of Tailwind CSS. Explore a clean and responsive design that captures the essence of the Nike brand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+ you can visit the page : [ `View`](https://nike-app-tailwindcss-bice.vercel.app)
+
+
+## 🔗 Links 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhaniyel-darvesh-256987280/)
+
+
